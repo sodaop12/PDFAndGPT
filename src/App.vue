@@ -1,7 +1,11 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">GPT Page</router-link> |
+    <router-link to="/about">Bard Page</router-link> |
+    <router-link to= "/GPTdes"> GPT des  </router-link> | 
+    <router-link to= "/Barddes"> Bard des  </router-link> |
+      <router-link to= "/PDF"> PDF  </router-link> |
+      <router-link to= "/PDF1"> PDF view </router-link> 
   </nav>
   <router-view/>
 </template>
@@ -12,7 +16,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
 }
 
 nav {
